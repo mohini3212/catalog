@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root{
+    --primary-color:#2eb9ff;
+    --secondary-color:#0e0a32df;
+    --black-color:#191818;
+    --white-color:#f5eeee;
+    --gray-color:#bfbcbcb5;
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font:"Poetsen One", sans-serif;;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    background-color: var(--gray-color);
+    
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+.wrapper{
+    padding: 42px 0px;
+}
+.mb-4{
+    margin-bottom: 4px;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 12px;
+background-color:var(--white-color);
+        align-items: center;
+    font-family: var(--primary-font);
+}
+.navbar .logo{
+    display: flex;
+    font-size: 30px;
+    font-weight: 300px;
+justify-content: flex-start;
+align-items: center;
+margin-left: 24px;
+    color: var(--primary-color);
+    transition: all 0.5s;
+}
+.navbar h2 {
+    margin-left: 24px;
+}
+
+
+.navbar .nav-tab .nav-link{
+    color: var(--black-color);
+    margin: 12px;
+    margin-right: 24px 24px;
+     justify-content: space-between;
+transition: all 0.5s;
+}
+.navbar .nav-tab .nav-link:hover {
+    border-bottom:1px solid var(--primary-color);
+}
+/* hero-section */
+.background{
+    width: 100%;
+    min-height: 50vh;
+background-image:url("images/catalog01.jpg");
+background-position: relative;
+background-repeat: no-repeat;
+background-size: cover;
+    align-items: center;
+}
+/* gallery */
+.gallery h2{
+    font-size: 44px;
+
+}
+.gallery .card-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.gallery .card-section .card {
+ width: auto;
+ height: auto;
+}
+
+.gallery .card-section .card img{
+max-width: 100%;
+}
+
+
+
+
+
+
+
